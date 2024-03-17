@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ybaPups80FgkhEebTIcCF1B8Of4vZfGeBOTQVPRnLmI1nnkLV9rSPkXSbgTL9r8b+O/GQ9HIs89uHV+a4PvxDg==",
+  "success": true,
+  "projectFilePath": "/Users/olehshpacovich/RiderProjects/TestTaksOpenApi/TestTaskOpenApi/TestTaskOpenApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/olehshpacovich/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.17/microsoft.aspnetcore.jsonpatch.7.0.17.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.17/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.17.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0-preview.2.24128.5/microsoft.extensions.dependencyinjection.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.2.24128.5/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/olehshpacovich/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
