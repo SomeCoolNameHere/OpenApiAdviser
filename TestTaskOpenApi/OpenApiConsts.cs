@@ -6,5 +6,4 @@ public static class OpenApiConsts
     public const string CodeIssuesQuestion = "Show in comments possible improvements for this code:";
     public const string RefactorCodeQuestion = "Give me advice to refactor this code:";
     public const string SystemRole = "You are a helpful assistant.";
-
 }

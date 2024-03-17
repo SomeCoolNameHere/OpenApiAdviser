@@ -6,7 +6,7 @@ namespace TestTaksOpenApi.Controllers;
 
 [ApiController]
 [Route("[controller]/[action]")]
-public class CodeImprovementController:ControllerBase
+public class CodeImprovementController : ControllerBase
 {
     private readonly ICodeIssuesService _codeIssuesService;
 
@@ -14,15 +14,15 @@ public class CodeImprovementController:ControllerBase
     {
         _codeIssuesService = codeIssuesService;
     }
-    
+
     [HttpPost]
-    public async Task<List<GeneratedTextInfo>> PossibleIssues( CodeIssueRequest code)
+    public async Task<List<GeneratedTextInfo>> PossibleIssues(CodeIssueRequest code)
     {
         return await _codeIssuesService.GetCodeIssues(OpenApiConsts.CodeIssuesQuestion + code.CodeExample);
     }
-    
+
     [HttpPost]
-    public async Task<List<GeneratedTextInfo>> RefactorCodeIssues( CodeIssueRequest code)
+    public async Task<List<GeneratedTextInfo>> RefactorCodeIssues(CodeIssueRequest code)
     {
         return await _codeIssuesService.GetCodeIssues(OpenApiConsts.RefactorCodeQuestion + code.CodeExample);
     }

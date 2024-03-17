@@ -3,7 +3,7 @@ using TestTaksOpenApi.Services.Abstractions;
 
 namespace TestTaksOpenApi.Services;
 
-public class CodeImprovementService: ICodeIssuesService
+public class CodeImprovementService : ICodeIssuesService
 {
     private readonly IOpenApiIntegrationService _integrationService;
 
@@ -19,20 +19,20 @@ public class CodeImprovementService: ICodeIssuesService
             Model = OpenApiConsts.ModelType,
             Messages = new List<Message>
             {
-                new ()
+                new()
                 {
                     Content = OpenApiConsts.SystemRole,
-                    Role = Role.system
+                    Role = Role.System
                 },
-                new ()
+                new()
                 {
                     Content = question,
-                    Role = Role.user
+                    Role = Role.User
                 }
             }
         };
         var answer = await _integrationService.GetAnswer(request);
-        
+
         return answer.Choices;
     }
 }
