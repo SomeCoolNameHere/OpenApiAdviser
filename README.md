@@ -1,2 +1,4 @@
 OpenApiAdviser
-Web app that has 2 endpoints to give you advise for inprovements or refactoring of your code. Swagger available inside. Doesn't need to make any commands or setup database, just download build and run!
+Web app that has 2 endpoints to give you advice for improvements or refactoring of your code.
+Swagger is available inside.
+It doesn't need to make any commands or set up a database, just download build, and run!
